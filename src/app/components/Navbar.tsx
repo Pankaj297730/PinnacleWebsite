@@ -21,7 +21,7 @@ export default function AppNavbar() {
 </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-8 items-center">
+        <div className="hidden md:flex gap-8 items-center text-base font-semibold">
              <Link href="/" className="hover:text-blue-600 transition">
             Home
           </Link>
