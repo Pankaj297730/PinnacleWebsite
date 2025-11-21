@@ -73,14 +73,14 @@ export default function AppNavbar() {
       {/* Mobile Dropdown */}
       {open && (
         <div className="md:hidden bg-white border-t p-4 space-y-4">
-          <Link href="#" className="block hover:text-blue-600">
-            Buy Plots
+              <Link href="/" className="hover:text-blue-600 transition">
+            Home
           </Link>
-          <Link href="#" className="block hover:text-blue-600">
-            Pre-Launch
+          <Link href="contact" className="hover:text-blue-600 transition">
+            Contact Us
           </Link>
-          <Link href="#" className="block hover:text-blue-600">
-            Brokers
+          <Link href="aboutus" className="hover:text-blue-600 transition">
+            About Us
           </Link>
 
           <div className="border-t pt-4">
