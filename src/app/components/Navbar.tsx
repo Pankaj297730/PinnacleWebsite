@@ -7,7 +7,7 @@ export default function AppNavbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
+    <nav className="w-full bg-white backdrop-blur-md sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16 py-6">
 
         {/* Logo */}
