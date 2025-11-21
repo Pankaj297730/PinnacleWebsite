@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 export default function AboutSection() {
   const [activeTab, setActiveTab] = useState("about");
@@ -13,6 +14,7 @@ export default function AboutSection() {
   ];
 
   return (
+    <>
     <section className="max-w-7xl mx-auto px-4 py-20 font-inter">
       
       {/* Title */}
@@ -76,5 +78,8 @@ export default function AboutSection() {
 
       </div>
     </section>
+  <Footer/>
+    </>
+    
   );
 }
