@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "price": "Starts ₹29/Lakh",
+    "priceValue": 2900000,
+    "title": "SS Tirupati – Naya Nohra",
+    "type": "Apartment",
+    "status": "Ready to Move",
+    "beds": "3,4",
+    "baths": 2,
+    "address":"S S Tirupati Tower Kota, Naya Nohra",
+    "area": "340 - 910 sqft",
+    "desc": "Kota’s residential project, S S Tirupati Tower is offering property for sale. It is an Under Construction project by S S Tirupati Infraprojects. S S Tirupati Tower is set in an area of 0.37 Acres and is complete with various modern-day amenities. There is 1 building. S S Tirupati Tower is located in Borkhera.Own a home in S S Tirupati Tower today! S S Tirupati Tower is a RERA-registered project with ID RAJ/P/2020/1248. Naya Nohra is well-connected to other parts of the city by road, which passes through the heart of this suburb. Prominent shopping malls, movie theatres, schools, and hospitals are present in the proximity of this residential project.",
+    "location": "Kota",
+    "image": "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763826749/SS-Tirupati-4_eig5bh.webp",
+    "images": [
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763826749/SS-Tirupati-4_eig5bh.webp",
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763826738/SS-Tirupati-1_wcm5wb.webp",
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763826737/SS-Tirupati-2_vfvu0r.webp"
+      
+    ]
+  },
+  {
+    "id": 2,
+    "price": "₹1,22,69,000",
+    "priceValue": 12269000,
+    "title": "Aashirwad Vrindavan",
+    "type": "Apartment",
+    "status": "Ready to Move",
+    "beds": "2,3,4,5",
+    "baths": 4,
+    "desc":"For those looking to buy a residential property, here comes one of the choicest offerings in Kota, at Vivekananda Nagar. Brought to you by Aashirwad Housing, Aashirwad Vrindavan is among the newest addresses for homebuyers. There are apartments for sale in Aashirwad Vrindavan Vivekananda Nagar, Kota. This is a new launch project right now, and is expected to be delivered by Jan, 2026. Aashirwad Vrindavan Kota is a RERA-registered housing society, which means all projects details are also available on state RERA website for end-users and investors. The RERA registration number of this project is RAJ/P/2023/2651 (07/08/2023). Aashirwad Housing is one of the known real estate brands in Kota.The builder has delivered 3 projects so far. Read on to know more about must-know features, Aashirwad Vrindavan  Photos,  Floor Plans,  Brochure download procedure  and other exciting facts about the project",
+    "address":"Vivekananda Nagar, Kota",
+    "area": "1086 - 3191 sqft",
+    "location": "Kota",
+    "image": "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763827878/jwehuh0_1699945662_456139924_optOrig_qpmfye.jpg",
+    "images": [
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763827879/7cegmye_1699945657_456139914_optOrig_pbqzrc.jpg",
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763827878/jwehuh0_1699945662_456139924_optOrig_qpmfye.jpg",
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763827878/lvaoa5z_1699945665_456139928_optOrig_ylmga5.jpg",
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763827879/b62jgpg_1699945660_456139922_optOrig_bua7eq.jpg",
+      "https://res.cloudinary.com/dbv77rbsv/image/upload/v1763827879/veltane_1699965294_456210370_q7qf0p.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "price": "₹60,50,000",
+    "priceValue": 6050000,
+    "title": "2BHK Smart Apartment – Mahaveer Nagar",
+    "type": "Apartment",
+    "status": "Ready to Move",
+    "beds": 2,
+    "baths": 1,
+    "area": "980 sqft",
+    "location": "Kota",
+    "image": "/images/property3.jpg",
+    "images": [
+      "/images/property3.jpg",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+      "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
+      "https://images.unsplash.com/photo-1600585153735-61ad360289d0"
+    ]
+  },
+  {
+    "id": 4,
+    "price": "₹1,05,65,400",
+    "priceValue": 10565400,
+    "title": "Premium 150 sqyd Plot – Ajmer Road",
+    "type": "Plot",
+    "status": "New Launch",
+    "beds": 0,
+    "baths": 0,
+    "area": "150 sqyd",
+    "location": "Jaipur",
+    "image": "/images/property4.jpg",
+    "images": [
+      "/images/property4.jpg",
+      "https://images.unsplash.com/photo-1613977888685-bcfbc0a22e43",
+      "https://images.unsplash.com/photo-1501183638710-841dd1904471",
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ]
+  }
+]

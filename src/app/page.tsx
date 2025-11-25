@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* Center Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="font-poppins text-white text-2xl md:text-4xl font-bold leading-tight drop-shadow-xl">
+          <h1 className="font-lexend text-white text-2xl md:text-4xl font-bold leading-tight drop-shadow-xl">
             Where Every Property Finds Its Perfect Owner
           </h1>
 
@@ -38,8 +38,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <section className="max-w-3xl mx-auto text-center px-4 pt-10">
-  <h1 className="font-poppins text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+      <section className="max-w-4xl mx-auto text-center px-4 pt-10">
+  <h1 className="font-lexend text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
     Invest in Your Future, Invest in Your City
   </h1>
 
@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* Text */}
       <h2 className="absolute inset-0 flex items-center justify-center 
-                     text-white font-poppins text-6xl font-extrabold tracking-wide 
+                     text-white font-lexend text-6xl font-extrabold tracking-wide 
                      transition-all duration-500 group-hover:scale-110">
         JAIPUR
       </h2>
@@ -87,7 +87,7 @@ export default function Home() {
 
       {/* Text */}
       <h2 className="absolute inset-0 flex items-center justify-center 
-                     text-white font-poppins text-6xl font-extrabold tracking-wide 
+                     text-white font-lexend text-6xl font-extrabold tracking-wide 
                      transition-all duration-500 group-hover:scale-110">
         KOTA
       </h2>
@@ -104,7 +104,7 @@ export default function Home() {
           OUR COMPANY
         </p>
 
-        <h2 className="font-poppins text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+        <h2 className="font-lexend text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
           Celebrate the pride of reaching{" "}
           <span className="text-blue-600">new heights</span>
           <br />
@@ -120,7 +120,7 @@ export default function Home() {
 <div className="flex items-start gap-6">
   
   {/* BIG 16 */}
-  <h1 className="text-[140px] md:text-[180px] font-bold text-[#1F3C88] leading-none font-poppins">
+  <h1 className="text-[140px] md:text-[180px] font-bold text-[#1F3C88] leading-none font-lexend">
     16
   </h1>
 

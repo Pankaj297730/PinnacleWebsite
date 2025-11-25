@@ -26,13 +26,21 @@ export default function Contact() {
     <>
     <AppNavbar/>
     <div className=" min-h-screen font-inter">
-      <div className="w-full">
-  <img
-    src="https://it-expertsolutions.com/images/2020/10/30/contact-us-banner.jpg"
-    alt="Contact Banner"
-    className="w-full h-96 object-cover"
-  />
-</div>
+      <div className="relative w-full h-[300px] md:h-96">
+      {/* Background Image */}
+      <img
+        src="https://wallpaperaccess.com/full/1802071.jpg"
+        alt="About Us Banner"
+        className="w-full h-full object-cover"
+      />
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+        <h1 className="text-white text-4xl md:text-6xl font-bold tracking-wide">
+          Contact Us
+        </h1>
+      </div>
+    </div>
 
 
       {/* FULL-WIDTH BANNER */}

@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, Lexend } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-jakarta",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const lexend = Lexend({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-lexend",
 });
 
 // ⭐ FULL SEO METADATA
-// ⭐ FULL SEO METADATA (Real Estate Consulting)
 export const metadata: Metadata = {
   title: {
     default: "Pinnacle Property – Real Estate Consulting Experts",
@@ -39,7 +40,6 @@ export const metadata: Metadata = {
   creator: "Pinnacle Property",
   publisher: "Pinnacle Property",
 
-  // 🌐 Open Graph (For social media, WhatsApp, LinkedIn, Facebook)
   openGraph: {
     title: "Pinnacle Property – Expert Real Estate Consulting",
     description:
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.jpg", // Add in public folder
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Pinnacle Property – Real Estate Consulting",
@@ -58,7 +58,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  // 🕊 Twitter Cards
   twitter: {
     card: "summary_large_image",
     title: "Pinnacle Property – Real Estate Consulting Experts",
@@ -68,14 +67,12 @@ export const metadata: Metadata = {
     creator: "@pinnacle",
   },
 
-  // 📱 Favicon + Apple Touch Icons
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
 
-  // 🔍 Robots (SEO)
   robots: {
     index: true,
     follow: true,
@@ -88,26 +85,23 @@ export const metadata: Metadata = {
     },
   },
 
-  // 🔗 Canonical URL
   alternates: {
     canonical: "https://pinnacleproperty.in",
   },
 
-  // 🎨 Theme Color
   themeColor: "#ffffff",
 };
 
-
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+  <body className={`${jakarta.className} ${lexend.className} antialiased`}>
+
+
         {children}
       </body>
     </html>
